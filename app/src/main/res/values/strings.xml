@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Calculater</string>
+    <string name="may_tinh">May Tinh</string>
+    <string name="result">Result</string>
+    <string name="add">ADD</string>
+    <string name="sub">SUB</string>
+    <string name="mul">MUL</string>
+    <string name="number1">number1</string>
+</resources>

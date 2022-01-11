@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Number 1"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number 2"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_kq"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:hint="Result"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimary"
+        android:text="@string/sub"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mul"
+        android:textColor="@android:color/holo_orange_light" />
+</LinearLayout>
